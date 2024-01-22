@@ -1,0 +1,50 @@
+.about {
+  background: rgb(9, 142, 66);
+  background: linear-gradient(
+    45deg,
+    rgba(9, 142, 66, 1) 0%,
+    rgba(28, 3, 107, 1) 100%
+  );
+  padding: 50px 0;
+}
+.about:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(9, 142, 66, 1) 0%,
+    rgba(28, 3, 107, 1) 100%
+  );
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-content: center;
+}
+.about__img img {
+  width: 100%;
+  border-radius: 50px;
+}
+.about h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.about p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .about p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .about__grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+}

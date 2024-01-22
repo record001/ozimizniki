@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+:root {
+  --green:#098e42;
+  --blue:#1c036b;
+}
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.privacy {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.privacy a {
+  margin-top: 50px;
+  display: block;
+  color: var(--green);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

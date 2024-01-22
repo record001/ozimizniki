@@ -1,0 +1,131 @@
+.hero {
+  padding: 50px 0;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.hero__box {
+  margin-bottom: 30px;
+  
+  border-radius: 9px;
+ border: 2px solid var(--green);
+  padding: 23px;
+  font-size: 16px;
+  height: 200px;
+  position: relative;
+}
+.hero__box__img {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
+.hero__bottom {
+  margin-top: 80px;
+}
+.hero__bottom h4 {
+  font-size: 14px;
+  color: var(--green);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero__bottom h1 {
+  text-transform: uppercase;
+  font-size: 72px;
+  color: #000;
+  text-align: center;
+}
+.hero__bottom a {
+  width: 359px;
+  height: 95px;
+  border-radius: 9px;
+ border: 2px solid var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto 0 ;
+  color: var(--green);
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: 300ms;
+
+}
+.hero__bottom a:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: var(--green);
+  transition: 300ms;
+}
+.hero__logo img {
+  width: 100%;
+}
+@media(max-width:1000px) {
+  .hero__box p {
+    font-size: 14px;
+  }
+}
+@media(max-width:800px) {
+  .hero__box p {
+    font-size: 12px;
+  }
+
+  .hero__box {
+    padding: 18px;
+  }
+  .hero__box__img {
+    width: 60px;
+  }
+  .hero__bottom h1 {
+    font-size: 60px;
+  }
+}
+@media(max-width:650px) {
+  .hero__box p {
+    font-size: 11px;
+  }
+
+  .hero__box {
+    padding: 16px;
+  }
+  .hero__box__img {
+    width: 60px;
+  }
+  .hero__bottom h1 {
+    font-size: 50px;
+  }
+  .hero__bottom a {
+    width: 260px;
+    height: 65px;
+    
+    margin: 20px auto 0;
+    font-size: 16px;
+}
+}
+
+@media(max-width:550px) {
+  .hero__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero__logo {
+    display: none;
+  }
+  .hero__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero__box p {
+    font-size: 14px;
+  }
+  .hero__box {
+    height: 150px;
+  }
+  .hero__bottom {
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+}

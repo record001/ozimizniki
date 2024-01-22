@@ -1,0 +1,35 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  transform: translateY(-1000px);
+  transition: 500ms;
+  z-index: 10;
+}
+.open_modal {
+  transform: translateY(0px);
+  transition: 500ms;
+
+}
+.modal__bottom {
+  display: flex;
+  gap: 5% ;
+}
+
+.modal__list {
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+}
+.modal__list li {
+
+  margin-bottom: 10px;
+}
+.modal__list li a {
+  font-size: 18px;
+}

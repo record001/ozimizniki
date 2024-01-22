@@ -1,0 +1,34 @@
+
+
+.awards__card p {
+  width: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding:10px 15px ;
+  height: 50px;
+  font-size: 25px;
+
+}
+
+.awards__checkbox {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.awards__checkbox svg  {
+  font-size: 25px;
+}
+
+.awards__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+

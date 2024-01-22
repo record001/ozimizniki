@@ -1,0 +1,89 @@
+.loginForm {
+  width: 550px;
+  margin: 30px auto;
+  height: auto;
+  padding: 30px;
+  border-radius: 9px;
+  background: linear-gradient(
+    180deg,
+    rgba(9, 142, 66, 0.7932422969187676) 0%,
+    rgba(28, 3, 107, 0.7988445378151261) 100%
+  );
+  color: #fff;
+  box-shadow: 0px 0px 40px var(--green);
+}
+
+.loginForm h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.loginForm input {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #323232;
+  background: none;
+  border-radius: 9px;
+  margin-top: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.loginForm input::placeholder {
+  color: #fff;
+}
+.loginForm input:hover {
+  border: 2px solid #f6eaa4;
+}
+.loginForm button {
+  width: 50%;
+  border: none;
+  height: 50px;
+  border-radius: 9px;
+  background: linear-gradient(
+    180deg,
+    rgba(9, 142, 66, 0.7932422969187676) 0%,
+    rgba(27, 3, 107, 0.453) 100%
+  );
+
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin: 10px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginForm button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(9, 142, 66, 0.7932422969187676) 0%,
+    rgba(27, 3, 107, 0.453) 100%
+  );
+  transition: 200ms;
+  cursor: pointer;
+}
+.errorLogin {
+  color: red;
+}
+
+@media (max-width: 600px) {
+  .loginForm {
+    width: 500px;
+  }
+}
+@media (max-width: 550px) {
+  .loginForm {
+    width: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .loginForm {
+    width: 350px;
+  }
+}

@@ -1,0 +1,20 @@
+.book {
+  padding: 20px ;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.book__name {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid var(--blue);
+  margin-bottom: 30px;
+}
+.book__name h2 {
+  margin-bottom: 10px;
+}
+.book p {
+  line-height: 30px;
+  font-size: 18px;
+}

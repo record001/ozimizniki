@@ -1,0 +1,64 @@
+.media__grid {
+  display: grid;
+  grid-template-columns: 50% 25%;
+  justify-content: space-between;
+}
+
+.media {
+  padding: 50px 0 ;
+}
+
+.media h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.media__grid iframe {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+}
+.media a {
+  color: green;
+  
+}
+
+.media__pdf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.media__pdf img {
+  width: 90%;
+}
+@media(max-width:920px) {
+  .media__grid iframe {
+    height: 250px;
+  }
+}
+@media(max-width:800px) {
+  .media__grid iframe {
+    height: 200px;
+  }
+}
+@media(max-width:650px) {
+  .media__grid iframe {
+    height: 180px;
+  }
+}
+@media(max-width:550px) {
+  .media__grid iframe {
+    height: 200px;
+  }
+  .media__grid {
+    grid-template-columns: 90%;
+  justify-content: center;
+    gap: 20px;
+  }
+  .media__pdf img {
+    width: 50%;
+  }
+}
