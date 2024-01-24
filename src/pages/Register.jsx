@@ -151,7 +151,7 @@ function Register() {
         />
         <label htmlFor="shart">
           <input required type="checkbox"  id="shart" />
-          Loyiha shartlarga roziman <NavLink className='shart' to='/policy'>huquq va majburiyat</NavLink>
+          Loyiha shartlariga roziman <NavLink className='shart' to='/policy'>huquq va majburiyat</NavLink>
         </label>
         
         <button type="submit">Register</button>

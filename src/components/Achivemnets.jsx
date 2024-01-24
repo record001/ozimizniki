@@ -23,7 +23,7 @@ function Achivemnets() {
               <img src={track} alt="" />
 
               </div>
-              <h4> 4- bosqich: <br /> Siz kiritgan sarmoyangizni to'liq qaytarib olasiz </h4>
+              <h4> 3- bosqich: <br /> Siz kiritgan sarmoyangizni to'liq qaytarib olasiz </h4>
             </div>
             <img className='arrow'  src={bottom} alt="" />
 
