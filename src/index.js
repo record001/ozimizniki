@@ -10,6 +10,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import UserPage from './pages/UserPage';
 import Policy from './pages/Policy';
+import Presentation from './pages/Presentation';
 const appRouter = createBrowserRouter([
   {
     path:"/",
@@ -44,6 +45,10 @@ const appRouter = createBrowserRouter([
     element:<Policy />,
     
   },
+  {
+    path:"/presentation",
+    element:<Presentation />
+  }
   
 ])
 

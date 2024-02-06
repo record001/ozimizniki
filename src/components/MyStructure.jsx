@@ -30,14 +30,12 @@ function MyStructure({ user, allUsers, numOfPartners }) {
           <li>Login</li>
           <li>FIO</li>
           <li>Telefon</li>
-          <li>Email</li>
         </ul>
         <div className="bottom__main">
           <ul className="bottom__main__card">
             <li>Login</li>
             <li>FIO</li>
             <li>Telefon</li>
-            <li>Email</li>
           </ul>
         </div>
       </div>

@@ -3,7 +3,7 @@
   padding: 20px;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 20%  repeat(2, 1fr);
   gap: 10px;
   background-color: #fff;
   border-radius: 20px;
@@ -12,4 +12,21 @@
   border: 1px solid var(--green);
   margin-bottom: 10px;
   padding: 10px;
+}
+
+.profile__card img {
+  width: 100%;
+}
+
+@media(max-width:660px) {
+.profile {
+  grid-template-columns: 100%;
+
+}
+
+.profile__card img {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
 }

@@ -1,20 +1,19 @@
-.center  {
+.center {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  gap: 10px;
+  gap: 1%;
   margin-bottom: 25px;
 }
 .stages span {
-  
-  border: 5px solid #fff;
+  border: 2px solid #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
-  
+  background-color: red;
 }
 .first span {
   width: 100px;
@@ -26,18 +25,17 @@
 .second span {
   width: 90px;
   height: 90px;
-
 }
 
 .third {
-gap: 16.5%;
+  gap: 16.5%;
 }
 .third span {
   width: 80px;
   height: 80px;
 }
 .fourth {
-  gap: 63px;
+  gap: 6.3%;
 }
 .fourth span {
   width: 60px;
@@ -49,16 +47,96 @@ gap: 16.5%;
 .fifth span {
   width: 40px;
   height: 40px;
-  border: 4px solid #fff;
-
+  /* border: 4px solid #fff; */
 }
 .sixth span {
   width: 35px;
   height: 25px;
-  border: 3px solid #fff;
+  /* border: 3px solid #fff; */
 }
 
 .active_user {
-  background-color: var(--green);
+  background-color: var(--green) !important;
+}
 
+@media (max-width: 1100px) {
+  .fifth {
+    gap: 1.5%;
+  }
+  .fifth span {
+    width: 35px;
+    height: 35px;
+    /* border: 4px solid #fff; */
+  }
+  .fourth span {
+    width: 45px;
+    height: 45px;
+  }
+  .third span {
+    width: 70px;
+    height: 70px;
+  }
+  .third {
+    gap: 15.5%;
+  }
+}
+@media (max-width: 770px) {
+  .fourth {
+    gap: 5.5%;
+  }
+  .third {
+    gap: 13.5%;
+  }
+  .second {
+    gap: 35%;
+  }
+}
+@media (max-width: 660px) {
+  .center {
+    gap: 0;
+    margin-bottom: 10px;
+  }
+  .fifth {
+    gap: 0.5%;
+  }
+  .fourth {
+    gap: 4.7%;
+  }
+  .third {
+    gap: 13%;
+  }
+  .second {
+    gap: 35%;
+  }
+}
+@media (max-width: 600px) {
+  .fifth {
+    gap: 0;
+  }
+  .fourth {
+    gap: 3.5%;
+  }
+  .third {
+    gap: 10%;
+  }
+  .second {
+    gap: 30%;
+  }
+}
+
+@media (max-width: 550px) {
+  .fourth {
+    gap: 2.5%;
+  }
+  .third {
+    gap: 8%;
+  }
+  .second {
+    gap: 25%;
+  }
+}
+@media (max-width: 500px) {
+  .third {
+    gap: 6%;
+}
 }

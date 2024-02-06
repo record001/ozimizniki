@@ -1,6 +1,7 @@
 import React from "react";
 import '../style/media.css'
 import pdf from "../image/PDFSymbol.png";
+import { NavLink } from "react-router-dom";
 function Media() {
   return (
     <section className="media">
@@ -17,7 +18,7 @@ function Media() {
           ></iframe>
           <div className="media__pdf">
             <img src={pdf} alt="" />
-            <a href="#!">Yuklab olish</a>
+            <NavLink to="/presentation">Loyiha taqdimoti</NavLink>
           </div>
         </div>
 

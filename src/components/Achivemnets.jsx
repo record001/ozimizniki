@@ -40,7 +40,7 @@ function Achivemnets() {
               <div className="round">
               <img src={human} alt="" />
               </div>
-              <h4>6- bosqich: <br /> Bir kishilik "Umra ziyorati"   yo'llanmasi va kompaniya hisobidan reinvest </h4>
+              <h4>6- bosqich: <br /> Bir kishilik "Umra ziyorati"   yo'llanmasi va loyiha hisobidan reinvest </h4>
             </div>
           </div>    
       </div>     

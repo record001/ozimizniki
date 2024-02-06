@@ -30,3 +30,25 @@ li {
 a {
   text-decoration: none;
 }
+
+.presentation p {
+  line-height: 30px;
+  font-size: 20px;
+}
+.presentation h1 {
+  text-align: center;
+}
+.presentation h3 {
+  text-align: center;
+}
+
+.presentation span {
+  font-weight: 700;
+}
+
+.presentation a {
+  margin-top: 50px;
+  display: block;
+  color: var(--green);
+  font-weight: 600;
+}

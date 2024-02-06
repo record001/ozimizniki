@@ -8,19 +8,20 @@ function Register() {
   const [hasUser, setHasUser] = useState(false);
   let fName = useRef();
   let user_login = useRef();
-  let user_email = useRef();
   let user_psw = useRef();
   let user_phone = useRef();
   let invitedBy = useRef();
   let user_partner = useRef();
   let user_inheritence = useRef();
   let data = useSelector((store) => store.user.name);
-
+  console.log(data);
+  let emptyHandsData =data && data.filter((item)=> item.hand_left==="." || item.hand_right ===".")
+  console.log(emptyHandsData);
   function handleSubmit(e) {
     e.preventDefault();
-    let filterPartner = data.filter(
-      (user) => user.login === user_login.current.value
-    );
+    console.log(data);
+    let filterPartner = data.filter((user) => user.login === user_login.current.value);
+    console.log(filterPartner);
     if (filterPartner.length > 0) {
       setRight(filterPartner[0].hand_righ);
       setLeft(filterPartner[0].hand_left);
@@ -28,7 +29,6 @@ function Register() {
     } else {
       let ready_to_push = {
         name: fName.current.value,
-        email: user_email.current.value,
         login: user_login.current.value,
         password: user_psw.current.value,
         invitedBy: invitedBy.current.value,
@@ -49,7 +49,7 @@ function Register() {
       })
         .then((response) => response.json())
         .then((res) => {
-          console.log("test" + res);
+          console.log(res, "res");
           fetch("https://uzimizniki.pythonanywhere.com/users/")
             .then((response) => {
               if (response.ok) {
@@ -59,9 +59,11 @@ function Register() {
               }
             })
             .then((allUSers) => {
+              console.log("allusersssss", allUSers);
               let filteredUser = allUSers.filter(
                 (user) => user.login === res.invitedBy
               );
+              console.log(filteredUser, "filuser");
               let filteredUserId = filteredUser[0].cur_id;
 
               let ready = {};
@@ -81,7 +83,7 @@ function Register() {
                 };
               }
 
-              fetch(
+              fetch( 
                 `https://uzimizniki.pythonanywhere.com/users/${filteredUserId}/`,
                 {
                   method: "PUT",
@@ -95,7 +97,6 @@ function Register() {
         });
 
         fName.current.value = ""
-        user_email.current.value =""
         user_login.current.value =""
         user_psw.current.value =""
         invitedBy.current.value =""
@@ -116,8 +117,7 @@ function Register() {
         <input required type="text" ref={user_login} placeholder="Login" />
         {hasUser && <p className="warning">Bu user mavjud</p>}
 
-        <br />
-        <input required type="email" ref={user_email} placeholder="Email" />
+        
         <br />
         <input type="password" ref={user_psw} placeholder="Password" required />
         <br />
@@ -128,12 +128,21 @@ function Register() {
           placeholder="Telefon raqam"
         />
         <br />
-        <input
+        <select className="invitedBy_selector" defaultValue={'DEFAULT'} required  ref={invitedBy}>
+          <option disabled value="DEFAULT" >Tarmoqdagi o'rningiz</option>
+          {emptyHandsData && emptyHandsData?.map((item)=>{
+            return(
+              <option key={item.login} value={item.login}>{item.login}</option>
+
+            )
+          })}
+        </select>
+        {/* <input
           required
           type="text"
           ref={invitedBy}
           placeholder="Tarmoqdagi o'rningiz"
-        />
+        /> */}
         {left !== "." && right !== "." && (
           <p className="warning">bu foydalanuvchining ikki qo`li band</p>
         )}

@@ -20,13 +20,25 @@ function Products() {
   return (
     <div>
       <Swiper
-        slidesPerView={2}
+        slidesPerView={1}
         spaceBetween={30}
               
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
         }}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+         
+        }}
+        
         modules={[Autoplay]}
         className="mySwiper"
       >
