@@ -18,7 +18,7 @@ function Profile({info}) {
         <h3>Ustozingiz:</h3>
         <h4> {info.partner}</h4>
         <h3>Ro'yxatdan o'tgan sana:</h3>
-        <h4> {info.partner}</h4>
+        <h4> {info.date}</h4>
         
 
       </div>
