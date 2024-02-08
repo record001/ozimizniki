@@ -10,6 +10,7 @@ import Awards from "../components/Awards";
 function UserPage() {
   let userID = useParams();
   const [users, setUsers] = useState(null);
+  
   function handeClick(e){
     
     e.target.parentElement.querySelector(".active-list").classList.remove("active-list")
@@ -30,7 +31,8 @@ function UserPage() {
   }
   let user = users?.filter((item) => item.cur_id === userID.userId);
   let active_users = document.querySelectorAll(".active_user")
- 
+  
+
   
   return (
     user && (
@@ -59,7 +61,7 @@ function UserPage() {
                 <NavLink  className="leave_btn--icon" to='/login'>  <i className="fa-solid fa-right-from-bracket"></i></NavLink>
               </div>
               <div className="info__item open" id="a"><Profile  info={user[0]} /></div>
-              <div className="info__item" id="b"> <Stages user={user[0]} allUsers={users} /></div>
+              <div className="info__item" id="b"> <Stages   user={user[0]} allUsers={users} /></div>
               <div className="info__item" id="c"> <MyStructure user = {user[0]} allUsers={users} numOfPartners={active_users.length} /></div>
               <div className="info__item" id="d"><Products /></div>
               <div className="info__item" id="e"> <Awards user={user[0]} /> </div>
