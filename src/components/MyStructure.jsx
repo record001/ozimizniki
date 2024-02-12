@@ -1,10 +1,9 @@
 import React from "react";
 import "../style/myStructure.css";
-function MyStructure({ user, allUsers, numOfPartners }) {
+function MyStructure({ user, allUsers, numOfPartners, all_partners }) {
   let partner1 = allUsers.find((item) => item.login === user?.invitedBy);
   let partner2 = allUsers.find((item) => item.login === partner1?.invitedBy);
   let personal_partner = allUsers.filter((item)=> item.partner === user.login)
-
   return (
     <div className="myStructure">
       <div className="myStructure__top">
@@ -32,11 +31,16 @@ function MyStructure({ user, allUsers, numOfPartners }) {
           <li>Telefon</li>
         </ul>
         <div className="bottom__main">
-          <ul className="bottom__main__card">
-            <li>Login</li>
-            <li>FIO</li>
-            <li>Telefon</li>
-          </ul>
+          {all_partners?.map((item)=>{
+            return(
+            <ul className="bottom__main__card" key={item[0].cur_id}>
+              <li>{item[0].login}</li>
+              <li>{item[0].name}</li>
+              <li>{item[0].phone}</li>
+            </ul>
+            )
+          })}
+          
         </div>
       </div>
     </div>

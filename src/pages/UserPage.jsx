@@ -31,9 +31,87 @@ function UserPage() {
   }
   let user = users?.filter((item) => item.cur_id === userID.userId);
   let active_users = document.querySelectorAll(".active_user")
-  
+  let partnersOfUser = []
+  function getAllPartners() {
+     // 2 - stage 2 partner
+  let left = users?.filter((item)=> item.login ===user[0].hand_left)
+  let right = users?.filter((item)=> item.login ===user[0].hand_right)
+  // 3- stage 4 partner
+  let left_left =left?.length > 0 && users.filter((item)=>item.login === left[0].hand_left)
+  let left_right =left?.length > 0 && users.filter((item)=>item.login === left[0].hand_right)
+  let right_left=right?.length >0 && users.filter((item)=>item.login === right[0].hand_left)
+  let right_right=right?.length >0 && users.filter((item)=>item.login === right[0].hand_left)
+   // 4 - stage 8 partner
+  let left_left_left = left_left?.length > 0 && users.filter((item)=> item.login ===left_left[0].hand_left)
+  let left_left_right = left_left?.length > 0 && users.filter((item)=> item.login ===left_left[0].hand_right)
+  let left_right_left =  left_right?.length > 0 && users.filter((item)=> item.login ===left_right[0].hand_left)
+  let left_right_right =left_right?.length > 0 && users.filter((item)=> item.login ===left_right[0].hand_right)
 
-  
+  let right_left_left=  right_left?.length > 0 && users.filter((item)=> item.login ===right_left[0].hand_left)
+  let right_left_right = right_left?.length > 0 && users.filter((item)=> item.login ===right_left[0].hand_right)
+  let right_right_left = right_right?.length > 0 && users.filter((item)=> item.login ===right_right[0].hand_left)
+  let right_right_right = right_right?.length > 0 && users.filter((item)=> item.login ===right_right[0].hand_right)
+  // 5- stage 16 partner
+  let left_left_left_left = left_left_left?.length > 0 && users.filter((item)=> item.login === left_left_left[0].hand_left)
+  let left_left_left_right = left_left_left?.length > 0 && users.filter((item)=> item.login === left_left_left[0].hand_right)
+  let left_left_right_left =left_left_right?.length > 0 && users.filter((item)=> item.login === left_left_right[0].hand_left)
+  let left_left_right_right =left_left_right?.length > 0 && users.filter((item)=> item.login === left_left_right[0].hand_right)
+
+  let left_right_left_left= left_right_left?.length > 0 && users.filter((item)=> item.login === left_right_left[0].hand_left)
+  let left_right_left_right = left_right_left?.length > 0 && users.filter((item)=> item.login === left_right_left[0].hand_right)
+  let left_right_right_left = left_right_right?.length > 0 && users.filter((item)=> item.login === left_right_right[0].hand_left)
+  let left_right_right_right = left_right_right?.length > 0 && users.filter((item)=> item.login === left_right_right[0].hand_right)
+
+  let right_left_left_left = right_left_left?.length > 0 && users.filter((item)=> item.login === right_left_left[0].hand_left)
+  let right_left_left_right = right_left_left?.length > 0 && users.filter((item)=> item.login === right_left_left[0].hand_right)
+  let right_left_right_left = right_left_right?.length > 0 && users.filter((item)=> item.login === right_left_right[0].hand_left)
+  let right_left_right_right = right_left_right?.length > 0 && users.filter((item)=> item.login === right_left_right[0].hand_right)
+
+  let right_right_left_left = right_right_left?.length > 0 && users.filter((item)=> item.login === right_right_left[0].hand_left)
+  let right_right_left_right = right_right_left?.length > 0 && users.filter((item)=> item.login === right_right_left[0].hand_right)
+  let right_right_right_left = right_right_right?.length > 0 && users.filter((item)=> item.login === right_right_right[0].hand_left)
+  let right_right_right_right = right_right_right?.length > 0 && users.filter((item)=> item.login === right_right_right[0].hand_right)
+  // 6 stage 32 partner
+  let left_left_left_left_left = left_left_left_left?.length > 0 && users.filter((item)=> item.login === left_left_left_left[0].hand_left)
+  let left_left_left_left_right = left_left_left_left?.length > 0 && users.filter((item)=> item.login === left_left_left_left[0].hand_right)
+  let left_left_left_right_left = left_left_left_right?.length > 0 && users.filter((item)=> item.login === left_left_left_right[0].hand_left)
+  let left_left_left_right_right = left_left_left_right?.length > 0 && users.filter((item)=> item.login === left_left_left_right[0].hand_right)
+  let left_left_right_left_left =left_left_right_left?.length > 0 && users.filter((item)=> item.login === left_left_right_left[0].hand_left)
+  let left_left_right_left_right =left_left_right_left?.length > 0 && users.filter((item)=> item.login === left_left_right_left[0].hand_right)
+  let left_left_right_right_left =left_left_right_right?.length > 0 && users.filter((item)=> item.login === left_left_right_right[0].hand_left)
+  let left_left_right_right_right =left_left_right_right?.length > 0 && users.filter((item)=> item.login === left_left_right_right[0].hand_right)
+
+  let left_right_left_left_left= left_right_left_left?.length > 0 && users.filter((item)=> item.login === left_right_left_left[0].hand_left)
+  let left_right_left_left_right= left_right_left_left?.length > 0 && users.filter((item)=> item.login === left_right_left_left[0].hand_right)
+  let left_right_left_right_left = left_right_left_right?.length > 0 && users.filter((item)=> item.login === left_right_left_right[0].hand_left)
+  let left_right_left_right_right = left_right_left_right?.length > 0 && users.filter((item)=> item.login === left_right_left_right[0].hand_right)
+  let left_right_right_left_left = left_right_right_left?.length > 0 && users.filter((item)=> item.login === left_right_right_left[0].hand_left)
+  let left_right_right_left_right = left_right_right_left?.length > 0 && users.filter((item)=> item.login === left_right_right_left[0].hand_right)
+  let left_right_right_right_left = left_right_right_right?.length > 0 && users.filter((item)=> item.login === left_right_right_right[0].hand_left)
+  let left_right_right_right_right = left_right_right_right?.length > 0 && users.filter((item)=> item.login === left_right_right_right[0].hand_right)
+
+  let right_left_left_left_left = right_left_left_left?.length > 0 && users.filter((item)=> item.login === right_left_left_left[0].hand_left)
+  let right_left_left_left_right = right_left_left_left?.length > 0 && users.filter((item)=> item.login === right_left_left_left[0].hand_right)
+  let right_left_left_right_left = right_left_left_right?.length > 0 && users.filter((item)=> item.login === right_left_left_right[0].hand_left)
+  let right_left_left_right_right = right_left_left_right?.length > 0 && users.filter((item)=> item.login === right_left_left_right[0].hand_right)
+  let right_left_right_left_left = right_left_right_left?.length > 0 && users.filter((item)=> item.login === right_left_right_left[0].hand_left)
+  let right_left_right_left_right = right_left_right_left?.length > 0 && users.filter((item)=> item.login === right_left_right_left[0].hand_right)
+  let right_left_right_right_left = right_left_right_right?.length > 0 && users.filter((item)=> item.login === right_left_right_right[0].hand_left)
+  let right_left_right_right_right = right_left_right_right?.length > 0 && users.filter((item)=> item.login === right_left_right_right[0].hand_right)
+
+  let right_right_left_left_left = right_right_left_left?.length > 0 && users.filter((item)=> item.login === right_right_left_left[0].hand_left)
+  let right_right_left_left_right = right_right_left_left?.length > 0 && users.filter((item)=> item.login === right_right_left_left[0].hand_right)
+  let right_right_left_right_left = right_right_left_right?.length > 0 && users.filter((item)=> item.login === right_right_left_right[0].hand_left)
+  let right_right_left_right_right = right_right_left_right?.length > 0 && users.filter((item)=> item.login === right_right_left_right[0].hand_right)
+  let right_right_right_left_left = right_right_right_left?.length > 0 && users.filter((item)=> item.login === right_right_right_left[0].hand_left)
+  let right_right_right_left_right = right_right_right_left?.length > 0 && users.filter((item)=> item.login === right_right_right_left[0].hand_right)
+  let right_right_right_right_left = right_right_right_right?.length > 0 && users.filter((item)=> item.login === right_right_right_right[0].hand_left)
+  let right_right_right_right_right = right_right_right_right?.length > 0 && users.filter((item)=> item.login === right_right_right_right[0].hand_right)
+
+   partnersOfUser = [left, right, left_left, left_right,right_left, right_right, left_left_left,left_left_right, left_right_left, left_right_right, right_left_left,right_left_right, right_right_left, right_right_right, left_left_left_left, left_left_left_right,left_left_right_left, left_left_right_right,left_right_left_left, left_right_left_right,left_right_right_left,left_right_right_right,right_left_left_left,right_left_left_right,right_left_right_left,right_left_right_right, right_right_left_left,right_right_left_right, right_right_right_left, right_right_right_right,left_left_left_left_left,left_left_left_left_right,left_left_left_right_left,left_left_left_right_right,left_left_right_left_left,left_left_right_left_right,left_left_right_right_left,left_left_right_right_right,left_right_left_left_left,left_right_left_left_right,left_right_left_right_left,left_right_left_right_right,left_right_right_left_left,left_right_right_left_right,left_right_right_right_left,left_right_right_right_right,right_left_left_left_left,right_left_left_left_right,right_left_left_right_left, right_left_left_right_right,right_left_right_left_left,right_left_right_left_right,right_left_right_right_left,right_left_right_right_right, right_right_left_left_left,right_right_left_left_right,  right_right_left_right_left, right_right_left_right_right,right_right_right_left_left, right_right_right_left_right, right_right_right_right_left,  right_right_right_right_right,  ]
+  }
+  getAllPartners()
+  let filteredParter = partnersOfUser.filter((item)=>item?.length > 0)
   return (
     user && (
       <div className="userPage">
@@ -62,7 +140,7 @@ function UserPage() {
               </div>
               <div className="info__item open" id="a"><Profile  info={user[0]} /></div>
               <div className="info__item" id="b"> <Stages   user={user[0]} allUsers={users} /></div>
-              <div className="info__item" id="c"> <MyStructure user = {user[0]} allUsers={users} numOfPartners={active_users.length} /></div>
+              <div className="info__item" id="c"> <MyStructure all_partners={filteredParter} user = {user[0]} allUsers={users} numOfPartners={filteredParter.length} /></div>
               <div className="info__item" id="d"><Products /></div>
               <div className="info__item" id="e"> <Awards user={user[0]} /> </div>
                 
