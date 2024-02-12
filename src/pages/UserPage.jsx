@@ -30,8 +30,8 @@ function UserPage() {
     setUsers(json);
   }
   let user = users?.filter((item) => item.cur_id === userID.userId);
-  let active_users = document.querySelectorAll(".active_user")
   let partnersOfUser = []
+  
   function getAllPartners() {
      // 2 - stage 2 partner
   let left = users?.filter((item)=> item.login ===user[0].hand_left)
