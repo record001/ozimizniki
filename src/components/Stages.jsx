@@ -9,7 +9,7 @@ function Stages({user, allUsers}) {
   let left_left =left.length > 0 && allUsers.filter((item)=>item.login === left[0].hand_left)
   let left_right =left.length > 0 && allUsers.filter((item)=>item.login === left[0].hand_right)
   let right_left=right.length >0 && allUsers.filter((item)=>item.login === right[0].hand_left)
-  let right_right=right.length >0 && allUsers.filter((item)=>item.login === right[0].hand_left)
+  let right_right=right.length >0 && allUsers.filter((item)=>item.login === right[0].hand_right)
    // 4 - stage 8 partner
   let left_left_left = left_left.length > 0 && allUsers.filter((item)=> item.login ===left_left[0].hand_left)
   let left_left_right = left_left.length > 0 && allUsers.filter((item)=> item.login ===left_left[0].hand_right)

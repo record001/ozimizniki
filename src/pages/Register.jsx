@@ -14,14 +14,10 @@ function Register() {
   let user_partner = useRef();
   let user_inheritence = useRef();
   let data = useSelector((store) => store.user.name);
-  console.log(data);
   let emptyHandsData =data && data.filter((item)=> item.hand_left==="." || item.hand_right ===".")
-  console.log(emptyHandsData);
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(data);
     let filterPartner = data.filter((user) => user.login === user_login.current.value);
-    console.log(filterPartner);
     if (filterPartner.length > 0) {
       setRight(filterPartner[0].hand_righ);
       setLeft(filterPartner[0].hand_left);
@@ -128,8 +124,9 @@ function Register() {
           placeholder="Telefon raqam"
         />
         <br />
+        <span>Tarmoqdagi o'rningiz</span>
         <select className="invitedBy_selector" defaultValue={'DEFAULT'} required  ref={invitedBy}>
-          <option disabled value="DEFAULT" >Tarmoqdagi o'rningiz</option>
+          {/* <option disabled value="DEFAULT" >Tarmoqdagi o'rningiz</option> */}
           {emptyHandsData && emptyHandsData?.map((item)=>{
             return(
               <option key={item.login} value={item.login}>{item.login}</option>

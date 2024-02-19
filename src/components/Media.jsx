@@ -11,7 +11,7 @@ function Media() {
         <div className="media__grid">
           <iframe
             
-            // src="https://www.youtube.com/embed/MzyWsusbmpI?si=TMdBZYly7R6Clsy3"
+            src="https://www.youtube.com/embed/KIgx2q_9YgY?si=DnMp3Tk1cshEkmGy" 
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -22,14 +22,7 @@ function Media() {
           </div>
         </div>
 
-        {/* <h1>Loyihamizga 2024 yil 11 yanvar kuni start berildi</h1>
-        <h1>Biz bilan nimalarga erishasiz?</h1>
-        <h2>Faoliyat tizimga kiritilgan 200 000 so'm mablag' bilan boshlanadi</h2>
-        <h2>Birinchi pog'ona nihoyasiga yetgach siz narxi 200 000 so'mlik kitoblar to'plamiga ega bo'lasiz</h2>
-        <h2>Ikkinchi pog'ona nihoyasiga yetgach tizimda shakllangan mablag'dan 1 000 000 so'm mablag'ni rag'bat bonusi va 500 000 so'mlik kitoblar to'plamini olasiz</h2> 
-        <h2>Uchinchi pog'ona nihoyasiga yetgach tizimda shakllangan mablag'dan 10 000 000 so'm mablag'ni rag'bat bonusi sifatida olasiz undan tashqari sizga "Umra ziyorati" yo'llanmasi uchun to`liq to'lov qilib beriladi va jami 1 500 000 so'mlik kitoblar to'plami sovg'a qilinadi</h2>
-
-        <p>Ajratmalar hisobidan shakllangan hamkorlar uchun xorij davlatlariga sayohat yo'llanmalari berish nazarda tutilgan</p> */}
+    
       </div>
     </section>
   );
