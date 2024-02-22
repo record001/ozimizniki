@@ -29,7 +29,7 @@ function Policy() {
         <li>5. O‘zining nomida albatta plastik karta bo‘lishi va kitoblar to'plamini sotib olish ham, rag‘bat bonuslarini olish ham naqd bo‘lmagan shaklda bo‘lishini unutmasligi;</li>
          <li>6. Qo‘lga kiritgan "Umra safari" yo‘llanmasini o‘z yaqinlariga sovg‘a tariqasida bera olishi mumkinligini bilishi;</li>
         <li>7. O‘zidan yuqori pog‘onadagi kitobxonga  "Ustoz" deya, ehtirom ko‘rsatish shartligini odatiy hol deb qabul qilishi;</li>
-        <li>8. Zarur holatlarda ishsiz kitobxon 2020-yil 8-iyundagi PQ-4742-sonli qarorga asosan  soliq ogranlaridan ro'yhatdan o'tishi;</li>
+        <li>8. Zarur holatlarda vaqtinchalik ishsiz kitobxon 2020-yil 8-iyundagi PQ-4742-sonli qarorga asosan  soliq ogranlaridan ro'yhatdan o'tishi;</li>
         <li>9. Ziddiyatlarni o‘zaro kelishuv, murosa, maslahatlashuv yo‘li bilan bartaraf etishi  va aks hollarda, O‘zbekiston Respublikasi qonunchiligiga asoslangan holda hal qilishi, lozim!</li>
       </ol>
 
