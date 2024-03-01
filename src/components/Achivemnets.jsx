@@ -15,7 +15,7 @@ function Achivemnets() {
               <div className="round">
                  <img src={rocket} alt="" />
               </div>
-              <h4>1- bosqich: <br />Siz 1 000 000 so'm sarmoya hisobiga  dastlabki kitoblar to'plamiga ega bo'lasiz</h4>
+              <h4>1- bosqich: <br />Siz 500 000 so'm sarmoya hisobiga  dastlabki kitoblar to'plamiga ega bo'lasiz</h4>
             </div>
             <img className='arrow' src={top} alt="" />
             <div className="achivement__card">
@@ -23,7 +23,7 @@ function Achivemnets() {
               <img src={track} alt="" />
 
               </div>
-              <h4> 3- bosqich: <br /> Siz kiritgan sarmoyangizni to'liq qaytarib olasiz </h4>
+              <h4> 4- bosqich: <br /> Siz kiritgan sarmoyangizni to'liq qaytarib olasiz </h4>
             </div>
             <img className='arrow'  src={bottom} alt="" />
 
@@ -32,7 +32,7 @@ function Achivemnets() {
               <img src={track} alt="" />
 
               </div>
-              <h4>5- bosqich: <br />Siz  1 500 000 so'mlik kitoblar to'plamini olasiz</h4>
+              <h4>5- bosqich: <br />Siz  500 000 so'mlik kitoblar to'plamini olasiz</h4>
             </div>
             <img className='arrow'  src={top} alt="" />
 
@@ -41,9 +41,9 @@ function Achivemnets() {
               <img src={human} alt="" />
               </div>
               <h4>6- bosqich: <br />  Hohishingizga qarab: <br />
-               1. "Umra ziyorati" <br />
-               2.  10 mln so'm hamda 3 mln so'mlik kitoblar to'plami. <br />
-               Har ikki holatda ham reinvest </h4>
+                "Umra ziyorati" yoki
+                 15 mln so'm, 
+               har ikki holatda ham reinvest </h4>
             </div>
           </div>    
       </div>     

@@ -10,13 +10,13 @@ function Awards({user}) {
         </div>
       </div>
       <div className="awards__card">
-        <p>1 000 000 so'mlik rag'bat bonusi</p>
+        <p>450 000 so'mlik rag'bat bonusi</p>
         <div className="awards__checkbox">
         {user.award2 && <i className="fa-solid fa-check"></i>}  
         </div>
       </div>
       <div className="awards__card">
-        <p>1 500 000 so'mlik kitoblar to'plami</p>
+        <p>500 000 so'mlik kitoblar to'plami</p>
         <div className="awards__checkbox">
         {user.award3 && <i className="fa-solid fa-check"></i>}  
         </div>

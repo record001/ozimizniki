@@ -109,8 +109,106 @@ function UserPage() {
   let right_right_right_left_right = right_right_right_left?.length > 0 && users.filter((item)=> item.login === right_right_right_left[0].hand_right)
   let right_right_right_right_left = right_right_right_right?.length > 0 && users.filter((item)=> item.login === right_right_right_right[0].hand_left)
   let right_right_right_right_right = right_right_right_right?.length > 0 && users.filter((item)=> item.login === right_right_right_right[0].hand_right)
+  
+  // 7 stage 64 partner
+// 1
+ let left_left_left_left_left_left = left_left_left_left_left.length > 0 && users.filter((item)=> item.login === left_left_left_left_left[0].hand_left)
+ let left_left_left_left_left_right = left_left_left_left_left.length > 0 && users.filter((item)=> item.login === left_left_left_left_left[0].hand_right)
+// 2
+let left_left_left_left_right_left = left_left_left_left_right.length > 0 && users.filter((item)=> item.login === left_left_left_left_right[0].hand_left)
+let left_left_left_left_right_right = left_left_left_left_right.length > 0 && users.filter((item)=> item.login === left_left_left_left_right[0].hand_right)
+// 3
+let left_left_left_right_left_left = left_left_left_right_left.length > 0 && users.filter((item)=> item.login === left_left_left_right_left[0].hand_left)
+let left_left_left_right_left_right = left_left_left_right_left.length > 0 && users.filter((item)=> item.login === left_left_left_right_left[0].hand_right)
+// 4
+let left_left_left_right_right_left = left_left_left_right_right.length > 0 && users.filter((item)=> item.login === left_left_left_right_right[0].hand_left)
+let left_left_left_right_right_right = left_left_left_right_right.length > 0 && users.filter((item)=> item.login === left_left_left_right_right[0].hand_right)
+//5 
+let left_left_right_left_left_left =left_left_right_left_left.length > 0 && users.filter((item)=> item.login === left_left_right_left_left[0].hand_left)
+let left_left_right_left_left_right =left_left_right_left_left.length > 0 && users.filter((item)=> item.login === left_left_right_left_left[0].hand_right)
+//6 
+let left_left_right_left_right_left =left_left_right_left_right.length > 0 && users.filter((item)=> item.login === left_left_right_left_right[0].hand_left)
+let left_left_right_left_right_right =left_left_right_left_right.length > 0 && users.filter((item)=> item.login === left_left_right_left_right[0].hand_right)
+//7
+let left_left_right_right_left_left =left_left_right_right_left.length > 0 && users.filter((item)=> item.login === left_left_right_right_left[0].hand_left)
+let left_left_right_right_left_right =left_left_right_right_left.length > 0 && users.filter((item)=> item.login === left_left_right_right_left[0].hand_right)
+//8
+let left_left_right_right_right_left =left_left_right_right_right.length > 0 && users.filter((item)=> item.login === left_left_right_right_right[0].hand_left)
+let left_left_right_right_right_right =left_left_right_right_right.length > 0 && users.filter((item)=> item.login === left_left_right_right_right[0].hand_right)
+//9
+let left_right_left_left_left_left= left_right_left_left_left.length > 0 && users.filter((item)=> item.login === left_right_left_left_left[0].hand_left)
+let left_right_left_left_left_right= left_right_left_left_left.length > 0 && users.filter((item)=> item.login === left_right_left_left_left[0].hand_right)
+//10
+let left_right_left_left_right_left= left_right_left_left_right.length > 0 && users.filter((item)=> item.login === left_right_left_left_right[0].hand_left)
+let left_right_left_left_right_right= left_right_left_left_right.length > 0 && users.filter((item)=> item.login === left_right_left_left_right[0].hand_right)
+//11
+let left_right_left_right_left_left = left_right_left_right_left.length > 0 && users.filter((item)=> item.login === left_right_left_right_left[0].hand_left)
+let left_right_left_right_left_right = left_right_left_right_left.length > 0 && users.filter((item)=> item.login === left_right_left_right_left[0].hand_right)
+//12
+let left_right_left_right_right_left = left_right_left_right_right.length > 0 && users.filter((item)=> item.login === left_right_left_right_right[0].hand_left)
+let left_right_left_right_right_right = left_right_left_right_right.length > 0 && users.filter((item)=> item.login === left_right_left_right_right[0].hand_right)
+//13
+let left_right_right_left_left_left = left_right_right_left_left.length > 0 && users.filter((item)=> item.login === left_right_right_left_left[0].hand_left)
+let left_right_right_left_left_right = left_right_right_left_left.length > 0 && users.filter((item)=> item.login === left_right_right_left_left[0].hand_right)
+//14
+let left_right_right_left_right_left = left_right_right_left_right.length > 0 && users.filter((item)=> item.login === left_right_right_left_right[0].hand_left)
+let left_right_right_left_right_right = left_right_right_left_right.length > 0 && users.filter((item)=> item.login === left_right_right_left_right[0].hand_right)
+//15
+let left_right_right_right_left_left = left_right_right_right_left.length > 0 && users.filter((item)=> item.login === left_right_right_right_left[0].hand_left)
+let left_right_right_right_left_right = left_right_right_right_left.length > 0 && users.filter((item)=> item.login === left_right_right_right_left[0].hand_right)
+//16
+let left_right_right_right_right_left = left_right_right_right_right.length > 0 && users.filter((item)=> item.login === left_right_right_right_right[0].hand_left)
+let left_right_right_right_right_right = left_right_right_right_right.length > 0 && users.filter((item)=> item.login === left_right_right_right_right[0].hand_right)
+// 17
+let right_left_left_left_left_left = right_left_left_left_left.length > 0 && users.filter((item)=> item.login === right_left_left_left_left[0].hand_left)
+let right_left_left_left_left_right = right_left_left_left_left.length > 0 && users.filter((item)=> item.login === right_left_left_left_left[0].hand_right)
+//18
+let right_left_left_left_right_left = right_left_left_left_right.length > 0 && users.filter((item)=> item.login === right_left_left_left_right[0].hand_left)
+let right_left_left_left_right_right = right_left_left_left_right.length > 0 && users.filter((item)=> item.login === right_left_left_left_right[0].hand_right)
+//19
+  let right_left_left_right_left_left = right_left_left_right_left.length > 0 && users.filter((item)=> item.login === right_left_left_right_left[0].hand_left)
+  let right_left_left_right_left_right = right_left_left_right_left.length > 0 && users.filter((item)=> item.login === right_left_left_right_left[0].hand_right)
+//20
+  let right_left_left_right_right_left = right_left_left_right_right.length > 0 && users.filter((item)=> item.login === right_left_left_right_right[0].hand_left)
+  let right_left_left_right_right_right = right_left_left_right_right.length > 0 && users.filter((item)=> item.login === right_left_left_right_right[0].hand_right)
+//21
+  let right_left_right_left_left_left = right_left_right_left_left.length > 0 && users.filter((item)=> item.login === right_left_right_left_left[0].hand_left)
+  let right_left_right_left_left_right = right_left_right_left_left.length > 0 && users.filter((item)=> item.login === right_left_right_left_left[0].hand_right)
+//22
+  let right_left_right_left_right_left = right_left_right_left_right.length > 0 && users.filter((item)=> item.login === right_left_right_left_right[0].hand_right)
+  let right_left_right_left_right_right = right_left_right_left_right.length > 0 && users.filter((item)=> item.login === right_left_right_left_right[0].hand_right)
+//23
+  let right_left_right_right_left_left = right_left_right_right_left.length > 0 && users.filter((item)=> item.login === right_left_right_right_left[0].hand_left)
+  let right_left_right_right_left_right = right_left_right_right_left.length > 0 && users.filter((item)=> item.login === right_left_right_right_left[0].hand_right)
+//24
+let right_left_right_right_right_left = right_left_right_right_right.length > 0 && users.filter((item)=> item.login === right_left_right_right_right[0].hand_left)
+let right_left_right_right_right_right = right_left_right_right_right.length > 0 && users.filter((item)=> item.login === right_left_right_right_right[0].hand_right)
+//25
+  let right_right_left_left_left_left = right_right_left_left_left.length > 0 && users.filter((item)=> item.login === right_right_left_left_left[0].hand_left)
+  let right_right_left_left_left_right = right_right_left_left_left.length > 0 && users.filter((item)=> item.login === right_right_left_left_left[0].hand_right)
+//26
+  let right_right_left_left_right_left = right_right_left_left_right.length > 0 && users.filter((item)=> item.login === right_right_left_left_right[0].hand_left)
+  let right_right_left_left_right_right = right_right_left_left_right.length > 0 && users.filter((item)=> item.login === right_right_left_left_right[0].hand_right)
+//27
+  let right_right_left_right_left_left = right_right_left_right_left.length > 0 && users.filter((item)=> item.login === right_right_left_right_left[0].hand_left)
+  let right_right_left_right_left_right = right_right_left_right_left.length > 0 && users.filter((item)=> item.login === right_right_left_right_left[0].hand_right)
+//28
+  let right_right_left_right_right_left = right_right_left_right_right.length > 0 && users.filter((item)=> item.login === right_right_left_right_right[0].hand_left)
+  let right_right_left_right_right_right = right_right_left_right_right.length > 0 && users.filter((item)=> item.login === right_right_left_right_right[0].hand_right)
+//29
+  let right_right_right_left_left_left = right_right_right_left_left.length > 0 && users.filter((item)=> item.login === right_right_right_left_left[0].hand_left)
+  let right_right_right_left_left_right = right_right_right_left_left.length > 0 && users.filter((item)=> item.login === right_right_right_left_left[0].hand_right)
+//30
+  let right_right_right_left_right_left = right_right_right_left_right.length > 0 && users.filter((item)=> item.login === right_right_right_left_right[0].hand_left)
+  let right_right_right_left_right_right = right_right_right_left_right.length > 0 && users.filter((item)=> item.login === right_right_right_left_right[0].hand_right)
+//31
+let right_right_right_right_left_left = right_right_right_right_left.length > 0 && users.filter((item)=> item.login === right_right_right_right_left[0].hand_left)
+let right_right_right_right_left_right = right_right_right_right_left.length > 0 && users.filter((item)=> item.login === right_right_right_right_left[0].hand_right)
+//32
+let right_right_right_right_right_left = right_right_right_right_right.length > 0 && users.filter((item)=> item.login === right_right_right_right_right[0].hand_left)
+let right_right_right_right_right_right = right_right_right_right_right.length > 0 && users.filter((item)=> item.login === right_right_right_right_right[0].hand_right)
 
-   partnersOfUser = [left, right, left_left, left_right,right_left, right_right, left_left_left,left_left_right, left_right_left, left_right_right, right_left_left,right_left_right, right_right_left, right_right_right, left_left_left_left, left_left_left_right,left_left_right_left, left_left_right_right,left_right_left_left, left_right_left_right,left_right_right_left,left_right_right_right,right_left_left_left,right_left_left_right,right_left_right_left,right_left_right_right, right_right_left_left,right_right_left_right, right_right_right_left, right_right_right_right,left_left_left_left_left,left_left_left_left_right,left_left_left_right_left,left_left_left_right_right,left_left_right_left_left,left_left_right_left_right,left_left_right_right_left,left_left_right_right_right,left_right_left_left_left,left_right_left_left_right,left_right_left_right_left,left_right_left_right_right,left_right_right_left_left,left_right_right_left_right,left_right_right_right_left,left_right_right_right_right,right_left_left_left_left,right_left_left_left_right,right_left_left_right_left, right_left_left_right_right,right_left_right_left_left,right_left_right_left_right,right_left_right_right_left,right_left_right_right_right, right_right_left_left_left,right_right_left_left_right,  right_right_left_right_left, right_right_left_right_right,right_right_right_left_left, right_right_right_left_right, right_right_right_right_left,  right_right_right_right_right,  ]
+   partnersOfUser = [left, right, left_left, left_right,right_left, right_right, left_left_left,left_left_right, left_right_left, left_right_right, right_left_left,right_left_right, right_right_left, right_right_right, left_left_left_left, left_left_left_right,left_left_right_left, left_left_right_right,left_right_left_left, left_right_left_right,left_right_right_left,left_right_right_right,right_left_left_left,right_left_left_right,right_left_right_left,right_left_right_right, right_right_left_left,right_right_left_right, right_right_right_left, right_right_right_right,left_left_left_left_left,left_left_left_left_right,left_left_left_right_left,left_left_left_right_right,left_left_right_left_left,left_left_right_left_right,left_left_right_right_left,left_left_right_right_right,left_right_left_left_left,left_right_left_left_right,left_right_left_right_left,left_right_left_right_right,left_right_right_left_left,left_right_right_left_right,left_right_right_right_left,left_right_right_right_right,right_left_left_left_left,right_left_left_left_right,right_left_left_right_left, right_left_left_right_right,right_left_right_left_left,right_left_right_left_right,right_left_right_right_left,right_left_right_right_right, right_right_left_left_left,right_right_left_left_right,  right_right_left_right_left, right_right_left_right_right,right_right_right_left_left, right_right_right_left_right, right_right_right_right_left,  right_right_right_right_right,  left_left_left_left_left_left, left_left_left_left_left_right, left_left_left_left_right_left,left_left_left_left_right_right,  left_left_left_right_left_left, left_left_left_right_left_right,left_left_left_right_right_left, left_left_left_right_right_right,left_left_right_left_left_left, left_left_right_left_left_right,left_left_right_left_right_left,left_left_right_left_right_right,left_left_right_right_left_left,left_left_right_right_left_right, left_left_right_right_right_left,left_left_right_right_right_right,left_right_left_left_left_left,left_right_left_left_left_right,left_right_left_left_right_left,left_right_left_left_right_right, left_right_left_right_left_left,left_right_left_right_left_right,left_right_left_right_right_left,left_right_left_right_right_right,left_right_right_left_left_left,left_right_right_left_left_right, left_right_right_left_right_left,left_right_right_left_right_right,left_right_right_right_left_left, left_right_right_right_left_right,left_right_right_right_right_left,left_right_right_right_right_right,right_left_left_left_left_left,right_left_left_left_left_right,right_left_left_left_right_left, right_left_left_left_right_right, right_left_left_right_left_left, right_left_left_right_left_right, right_left_left_right_right_left, right_left_left_right_right_right, right_left_right_left_left_left, right_left_right_left_left_right,right_left_right_left_right_left, right_left_right_left_right_right,right_left_right_right_left_left,right_left_right_right_left_right,right_left_right_right_right_left,right_left_right_right_right_right,right_right_left_left_left_left,right_right_left_left_left_right, right_right_left_left_right_left,right_right_left_left_right_right,right_right_left_right_left_left, right_right_left_right_left_right,right_right_left_right_right_left,right_right_left_right_right_right,right_right_right_left_left_left,right_right_right_left_left_right, right_right_right_left_right_left, right_right_right_left_right_right,right_right_right_right_left_left, right_right_right_right_left_right,right_right_right_right_right_left,right_right_right_right_right_right         ]
   }
   getAllPartners()
   let filteredParter = partnersOfUser.filter((item)=>item?.length > 0)

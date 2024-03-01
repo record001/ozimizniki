@@ -9,45 +9,26 @@ function Presentation() {
       <h3> Aziz hamyurtlar! <br />
           Sizlarni ziyo va ma’rifat chashmasi bo‘lgan kitobxonlik  loyihasiga taklif qilamiz!</h3>
         <h1> Loyiha <span>"O‘ZIMIZNIKI"</span>  deya ataladi.</h1>
-      <p>
-     
-        Faoliyatimizdan ko‘zlangan maqsad turli mavzu va yo‘nalishdagi
-        kitoblarni yurtimiz aholisiga o'qishni tavsiya qilgan holda O‘zbekistonda
-        kitobxonlik va kitobxonlik madaniyatining rivojlanishiga o‘z hissamizni
-        qo‘shishdir. Kitoblar sotilishi tarmoqli marketing yo‘nalishida, onlayn
-        amalga oshiriladi.Bu yo`nalish keng qamrovli
-        yo‘nalish bo‘lib,xalqimizning ma'naviy va madaniy saviyasini oshirgan holda,  xalqimizga daromad va qo‘shimcha daromad manbaini topishga imkon beradi. Endi sizlarga bu faoliyat qay
-        tartibda amalga oshirilishini tushuntirib o‘tamiz. <br /> Biznes loyihamizning
-        tarmoqdagi ko‘rinishi binar, ya’ni ikkilik shaklida, jami olti
-        bosqichdan iborat. Faoliyat shakllanishi uchun bo'lg'usi kitobxon bir million so‘mlik (loyiha faoliyati davomida beriladigan) kitoblar to'plami sotib olishi kerak bo'ladi. Loyihadagi birinchi kitobxon tarmoqda faollashgach, ya’ni loyihamizdagi o‘qish uchun tavsiya qilinayotgan dastlabki kitoblar to‘plamidan birini sotib olgach, u tarmoqning
-        birinchi bosqichidan joy oladi. So‘ngra u ham loyihaga kitobxon taklif
-        qilish huquqini qo‘lga kiritadi. Faol kitobxonning "o‘ng" va "chap"
-        qo‘llaridagi ikki nafar kitobxon faollashgach tepadagi kitobxon tarmoqning
-        ikkinchi bosqichidan joy oladi. Va bu jarayon shu tariqa davom
-        etaveradi. Ya’ni, kitobxon avval tarmoqdagi birinchi bosqichdan, tagiga
-        ikki kitobxon kelgach ikkinchi bosqichdan joy oladi. Bu jarayon kitobxon
-        oltinchi bosqichga yetib tagidagi hamma o‘rinlar to‘lguncha davom
-        etaveradi. Tizimdagi faol kitobxonlar tarmoqda "Tepadan pastga", "Chapdan
-        o‘ngga" qoidasiga asosan joylashaveradi. Tarmoqdagi oltita bosqichning
-        barchasidagi kitobxonlarning faollashuvidan keyingi joylashuvi quyidagicha
-        bo‘ladi: <br /> 
-         1 - bosqichda bir nafar kitobxon; <br /> 2 - bosqichda ikki nafar
-        kitobxon; <br /> 3 - bosqichda to‘rt nafar kitobxon: <br /> 4 - bosqichda sakkiz nafar
-        kitobxon; <br /> 5 - bosqichda o‘n olti nafar kitobxon; <br /> 6 - bosqichda o‘ttiz ikki
-        nafar kitobxon. <br /> <b>Jami: Oltmish uch nafar kitobxon.</b>  <br /> Birinchi, ikkinchi va to‘rtinchi, bosqichlar "jamlovchi bosqichlar", uchinchi,  beshinchi va
-        oltinchi bosqichlar "taqsimlovchi bosqichlar" hisoblanadi. <br />
-       <b>Birinchi bosqich</b>  jamlovchi bosqich bo‘lishiga qaramay, kitobxon faollashgach, unga dastlabki kitoblar to‘plami sovg‘a qilinadi. <br />
-       <b>Ikkinchi bosqich</b>  jamlovchi bosqich. <br />
-       <b>Uchinchi bosqich.</b>  Yetakchi kitobxon tagidagi tegishli o‘rinlar to‘lgach, ya’ni yetakchi kitobxon bilan birgalikda tarmoqda yetti nafar kitobxon shakllangach,unga  1 000 000  so‘m rag‘bat bonusi, uni loyihaga taklif qilgan ustoziga esa 100 000 so‘m ehtirom bonusi beriladi. Ehtirom bonusi rag‘bat bonusi olgan kitobxon hisobidan beriladi. <br />
-       <b>To‘rtinchi bosqich</b>  jamlovchi bosqich. <br />
-       <b>Beshinchi bosqich. </b> Yetakchi kitobxon tagidagi  tegishli o‘rinlar to‘lgach, ya’ni   yetakchi kitobxon bilan birgalikda tarmoqda o‘ttiz bir nafar kitobxon shakllangach unga  rag‘bat bonusi sifatida 1 500 000  so‘mlik kitoblar to‘plami  sovg‘a tariqasida taqdim qilinadi. <br />
-      <b>Oltinchi</b>  - hal qiluvchi bosqich. Endi navbat ma’naviy poklanishga!  Yetakchi kitobxon tagidagi tegishli o‘rinlar to‘lgach, ya’ni yetakchi kitobxon bilan birgalikda tarmoqda oltmish uch nafar kitobxon shakllangach  unga rag‘bat bonusi sifatida maxsus litsenziyaga ega hamkor kompaniyalardan bir kishilik "Umra safari" yo‘llanmasi sotib olib beriladi va yo‘llanmadan tashqari unga, uning shaxsiy kabinetidagi ma’lumotlar saqlangani holda boshqa login bilan  reinvest - yangi akkaunt  sovg‘a  qilinadi. <br />
-     <b> Muhim eslatmalar: </b>Har bir kitobxonga 3 ta akkaunt ochishga ruxsat beriladi. Kitobxonlarning muvaffaqiyatga tezroq yetishlari kitob o‘qish tavsiya qilingan insonlar soniga emas, balkim loyihada faollashgan kitobxonlar soniga bog‘liq.Faol kitobxonlar soni qancha ko'p bo'lsa  muvaffaqiyatga erishish ham shuncha tez bo‘ladi. Har qaysi kitobxon tarmoqdagi o‘zining o‘rnini va daromadini o‘zi hohlagan insonga vasiyat qilishi mumkin. Bu haqda kitobxonning shaxsiy kabinetida alohida qayd qilinadi. Shuni ta’kidlashimiz lozimki, asosiy va reinvest hisobiga shakllangan kitobxonlarning  logini har xil bo‘ladi. Shaxsiy kabinetdagi ma’lumotlar esa bir xil bo‘ladi va bu  rag‘bat bonuslarining taqsimlanishidagi chalkashliklarning oldini olishni  ta’minlaydi. Lekin faoliyat davomida asosiy akkauntdagi kitobxongagina bir kishilik "Umra safari" yo‘llanmasi uchun 100 foiz to‘lov qilinadi. kitobxonlar “Umra  safari” ga olgan yo‘llanmasini o‘z yaqinlariga sovg‘a qilishlari ham mumkin. Reinvest hisobiga shakllangan kitobxonlarga "Umra safari" yo‘llanmasi berilmaydi.  Lekin, uchinchi bosqich yakuni bo‘yicha berilishi lozim bo‘lgan 1 000 000 so‘mlik rag‘bat bonusi beriladi. So‘ng beshinchi bosqich yakuni bo‘yicha esa 1 500 000 so‘mlik kitoblar to‘plami ham sovg‘a sifatida beriladi. Oltinchi bosqich yakuni bo‘yicha esa ularga rag‘bat bonusi sifatida maxsus litsenziyaga ega turistik kompaniyalardan bir marta xorijiy davlatga bir kishilik turistik yo‘llanma   sotib olib beriladi yoki mahalliy  sanatoriylarga 2 kishilik yo‘llanma uchun 100 foiz to‘lov qilinadi. Kitobxonlar sanatoriyni o‘zlari tanlashadi.
-      <br /> Ushbu loyiha ta’sischisi, rahbari, <br /> 
-        tel: 99 910 21 45  <br />
-        Birinchi raqamli kitobxoni va marketing reja muallifi: <br /> 
-        <span>X. Jo‘raboyev</span>
-      </p>
+        <p>
+          Men sizlarga asosiy faoliyati kitobxonlikka yoʼnaltirilgan - maqsadi ziyo va maʼrifat tarqatish hamda pirovard natijasi daromad ila maʼnaviy poklanish boʼlgan loyiha haqida onlayn maʼlumot bermoqchiman. <br />
+           Loyihamiz shiori: Mutolaa va daromad. Dastlab ikki ogʼiz soʼz loyihamiz nomlanishi haqida: <br />
+          1. Loyiha Oʼzbekistonniki; <br />
+          2. Taʼsischilar oʼzbekistonliklar; <br />
+          3. Oʼzbek mualliflari; <br />
+          4. Valyuta birligi - oʼzbek soʼmi; <br />
+          5. Kitobxon hamkorlar - hamyurtlarimiz. Xullas hammasi "Oʼzimizniki".  <br />
+          Loyihada badiiy va mavzuli kitoblarni sotish tarmoqli marketing yoʼnalishida onlayn amalga oshiriladi. Tanlangan tarmoq ketma-ketligi yetti bosqichdan iborat boʼlib binar shaklida. Bu loyihada daromad topish ehtimoli sotilgan kitoblar hajmiga bogʼliq. Sotiladigan kitoblar xajmi esa aynan bizning kitoblarni oʼqish tavsiyasini olgan va faollashgan insonlar soniga bogʼliq. <br />
+          Loyihada ijtimoiy himoyaga alohida urgʼu berildi va loyihaning hamabop boʼlishligini taʼminlash maqsadida marketing reja qayta koʼrib chiqildi. Yangi marketing rejaga muvofiq endi loyihada faollashishingiz uchun sizga atigi <b>besh yuz ming soʼm</b>  sarmoya kerak boʼladi. <br />
+           Siz birinchi kitoblar toʼplamini olasiz. Qayta xarid yoʼq. Sarmoya kiritilgach siz 6 soat mobaynida tarmoqdagi oʼz oʼrningizni egallaysiz va faoliyatingizga start beriladi. Keyinchalik esa sizga aynan bizdan kitob sotib olishni tavsiya qilgan insonga(ustozingizga) sizning hisobingizdan 50 000 soʼm miqdorida ehtirom bonusi berilishi ham koʼzda tutilgan. Siz <b>500 000 soʼm </b> mablagʼingizdan yangi joy uchun sarmoya sifatida foydalanishingiz ham mumkin. <br />
+         <b>Endi faoliyat va ragʼbat bonuslari haqida soʼz yuritamiz.</b>  <br />
+          Barcha loyihalardagi kabi faollashganingizdan soʼng tarmoqda yuzaga keluvchi "oʼng" va "chap" qoʼllaringizda 7 nafardan kitobxon-hamkorlar shakllangach siz <i>"Bronza komanda yetakchisi"</i>  ga aylanasiz va sizga loyihadan kitob sotib olishga kiritgan sarmoyangizning 450 000 soʼmi qaytarib beriladi. Sarmoyangizning 50 ming soʼmi esa sizni loyihaga taklif qilgan ustozingizga ehtirom bonusi sifatida oʼtkazib beriladi. Shu joyda sizning loyihadagi ishtirokingiz ellik ming soʼmdan boshlangan boʼladi. <br />
+          Faoliyat davomida sizning "oʼng" va "chap" qoʼllaringizda 31 nafardan kitobxon-hamkorlar shakllangach siz <i>"Kumush komanda yetakchisi"</i> ga aylanasiz va sizga 500 000 soʼmlik kitoblar toʼplami sovgʼa sifatida beriladi. Bu vaqtga kelib siz 6-bosqichni toʼliq yopgan boʼlasiz. <br />
+          Hal qiluvchi bosqichda sizning "oʼng" va "chap" qoʼllaringizda 62 nafardan kitobxon-hamkorlar shakllangach siz <i>"Oltin komanda yetakchisi"</i> ga aylanasiz va sizga <b>15 000 000 soʼm</b>  miqdorida ragʼbat bonusi sovgʼa qilinadi. Yoki butun dunyo musulmonlarining orzularidan biri boʼlgan "Umra ziyorati" yoʼllanmasi uchun yuqorida koʼrsatilgan mablagʼ (15 000 000 soʼm) oʼtkazib beriladi. Yoʼllanma beruvchi kompaniyani kitobxon-hamkorlar oʼzlari tanlaydi. Har ikki holatda ham reinvest (klon) sovgʼa qilinadi. Bu esa loyiha faoliyatining uzluksizligini va davomiyligini taʼminlaydi. <br />
+          Keyinchalik reinvest (klon)lar hisobiga shakllangan barcha kitobxon-hamkorlar marraga yetishganda ularga "Umra ziyorati" yoʼllanmasi oʼrniga xorijiy turistik yoʼllanma yoki mahalliy sanatoriylar yoʼllanmasi sovgʼa sifatida beriladi.
+          Har bir kitobxon-hamkor umra ziyorati yoʼllanmasini oʼz yaqiniga sovgʼa qilishi ham mumkin. Kitobxon-hamkorlarga boshqa loyihalarda faoliyat yuritishlariga ruxsat beriladi. <br />
+          Qoʼshimcha maʼlumotlar uchun <b>99 910 21 45</b>  tel. raqamlari orqali loyiha taʼsischisi <b>Joʼraboev Xudoyqul Xudoynazarovichga</b>  murojaat qilishlaringiz mumkin. <br />
+          Eʼtiboringiz uchun rahmat.
+        </p>
 
 
       <NavLink  to="/">Asosiy sahifa</NavLink>
